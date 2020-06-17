@@ -18,3 +18,6 @@ export function handleMoney(money:string):string {
     return (+money).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,');
 }
 
+export function add(x:number,y:number):number{
+    return x+y;
+}
