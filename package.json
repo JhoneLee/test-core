@@ -1,0 +1,46 @@
+{
+  "name": "test-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "precommit":"karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhoneLee/test-core.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JhoneLee/test-core/issues"
+  },
+  "homepage": "https://github.com/JhoneLee/test-core#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@types/webpack-env": "^1.15.2",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "husky": "^3.1.0",
+    "istanbul-instrumenter-loader": "^3.0.1",
+    "karma": "^4.4.1",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-cli": "^2.0.0",
+    "karma-coverage": "^2.0.1",
+    "karma-coverage-istanbul-reporter": "^2.1.1",
+    "karma-firefox-launcher": "^1.3.0",
+    "karma-html-reporter": "^0.2.7",
+    "karma-mocha": "^1.3.0",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-webpack": "^4.0.2",
+    "mocha": "^6.2.3",
+    "puppeteer": "^1.20.0",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0"
+  }
+}
